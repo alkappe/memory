@@ -1,19 +1,24 @@
 {
   "name": "memory",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "budo -l -d . -o -s bundle.js js/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alkappe/memory.git"
   },
-  "author": "",
-  "license": "UNLICENSED",
+  "author": "alkappe",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alkappe/memory/issues"
+    "url": "https://github.com/alkappe/unit-memory/issues"
   },
-  "homepage": "https://github.com/alkappe/memory#readme"
+  "homepage": "https://github.com/alkappe/unti-memory#readme",
+  "devDependencies": {
+    "budo": "^10.0.3"
+  }
 }
