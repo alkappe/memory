@@ -1,3 +1,8 @@
+var app = require('./app')
+
+window.addEventListener('load', app())
+
+/*
 var cell1 = document.getElementById('cell1')
 
 cell1.onclick = function (event) {
@@ -38,3 +43,4 @@ cell7.onclick = function (event) {
     element.className = 'selected'
   }
 }
+*/
