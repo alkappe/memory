@@ -1,0 +1,58 @@
+* {
+  margin:0;
+  padding: 0;
+}
+body {
+}
+
+section {
+  width: 90%;
+  height: auto;
+  margin-top: 20vh;
+  margin: 20vh auto;
+
+}
+
+#container {
+
+}
+
+#text {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0px;
+}
+
+#cta {
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  position: fixed;
+
+}
+.row {
+
+  float:left;
+  width: 33.33%;
+  height: 100%;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+}
+
+.selected {
+  background-color: #f4dc41;
+}
+
+.selectedB {
+  background-color: #f45042;
+}
+
+.selectedC {
+  background-color: #4170f4;
+}
